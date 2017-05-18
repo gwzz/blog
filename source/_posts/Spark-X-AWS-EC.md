@@ -1,10 +1,11 @@
 ---
-title: Spark_X_AWS_EC
+title: Run Spark Application On AWS EC2 Cluster
 date: 2017-05-17 14:36:15
-tags:
+tags: 
+		- spark
+		- AWS
+		- scala
 ---
-#Run Spark Application On AWS EC2 Cluster
-
 ## Install Spark on a Lacal Machine
 ### Install on Machine
 1. Install the latest version of Java Development Kit.
