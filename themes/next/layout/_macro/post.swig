@@ -310,6 +310,10 @@
       {% endif  %}
     </div>
 
+    <div style="text-align:center;color: #ccc;font-size:14px;">
+      ---------------- The End ----------------
+    </div>
+
     <div>
       {% if not is_index %}
         {% include 'wechat-subscriber.swig' %}
@@ -381,6 +385,16 @@
       {% if is_index and not isLast %}
         <div class="post-eof"></div>
       {% endif %}
+      <div>
+        <p id="div-border-left-red">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        <span>
+        <b>Author: </b><a href="{{ url_for(site.path) }}" title="visit me"> {{ config.author}} </a><br/>
+        <b>Contact: </b><a href="zhucyw@gmail.com" title="contact me">zhucyw@gmail.com</a><br/>
+        <b>Address: </b><a href="{{ url_for(page.path) }}" title="{{ page.title }}">{{ page.permalink }}</a><br/>
+        </span>
+      </p>
+</div>
     </footer>
   </article>
 
