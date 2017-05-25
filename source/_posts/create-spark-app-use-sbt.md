@@ -20,9 +20,9 @@ sbt is the de facto build tool in the Scala community， used by the Lift web fr
 ## Install SBT
 Use [Homebrew](https://brew.sh/ "Homebrew") (for Mac)
 
-``
+```
 $ brew install sbt
-``
+```
 
 or
 
@@ -33,7 +33,7 @@ The below tutorial assumes you`ve installed sbt 0.13.13 or later.
 
 If you’re using sbt 0.13.13 or later, you can use sbt new command to quickly setup a simple Hello world build. Type the following command to the terminal.
 
-``
+``` shell
 $ sbt new sbt/scala-seed.g8
 ....
 Minimum Scala build.
@@ -41,7 +41,7 @@ Minimum Scala build.
 name [My Something Project]: hello
 
 Template applied in ./hello
-``
+```
 
 When prompted for the project name, type your project name. For example, hello. This will create a new project under a directory named hello.
 
