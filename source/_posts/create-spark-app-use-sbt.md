@@ -45,3 +45,24 @@ Template applied in ./hello
 
 When prompted for the project name, type your project name. For example, hello. This will create a new project under a directory named hello.
 
+## Running app
+
+Now from inside the hello directory, start sbt and type run at the sbt shell. On Linux or OS X the commands might look like this:
+``` shell
+$ cd hello
+$ sbt
+...
+> run
+...
+[info] Compiling 1 Scala source to /xxx/hello/target/scala-2.12/classes...
+[info] Running example.Hello
+hello
+```
+We will see more tasks later.
+
+## Exiting sbt shell
+
+To leave sbt shell, type exit or use Ctrl+D (Unix) or Ctrl+Z (Windows).
+``` shell
+> exit
+```
