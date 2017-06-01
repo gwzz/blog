@@ -2,6 +2,9 @@
 title: create_spark_app_use_sbt
 date: 2017-05-23 23:53:03
 tags:
+		- SBT
+		- scala
+		- spark
 ---
 ## What is SBT?
 sbt is an open source build tool for Scala and Java projects, similar to Java's Maven or Ant.
