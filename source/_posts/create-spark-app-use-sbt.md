@@ -6,6 +6,9 @@ tags:
 		- scala
 		- spark
 ---
+This post introduces the SBT tools for building scala projects.
+
+<!-- more -->
 ## What is SBT?
 sbt is an open source build tool for Scala and Java projects, similar to Java's Maven or Ant.
 
