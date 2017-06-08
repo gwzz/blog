@@ -310,10 +310,6 @@
       {% endif  %}
     </div>
 
-    <div style="text-align:center;color: #ccc;font-size:14px;">
-      ---------------- The End ----------------
-    </div>
-
     <div>
       {% if not is_index %}
         {% include 'wechat-subscriber.swig' %}
