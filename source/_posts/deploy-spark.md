@@ -50,7 +50,7 @@ rvm install 2.4.0
 rvm use 2.4.0 --default
 ruby -v
 ```
-For more usage of rbenv, please go to [rvm](https://rvm.io/ "rvm").
+For more usage of rvm, please go to [rvm](https://rvm.io/ "rvm").
 
 ## Install Bundler
 The last step is to install bundler:
